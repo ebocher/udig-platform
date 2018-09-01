@@ -160,6 +160,7 @@
         <module>org.locationtech.udig.ui</module>
         <module>org.locationtech.udig.validation</module>
         <module>org.locationtech.udig.bookmarks</module>
+	<module>org.locationtech.udig.catalog.h2gis</module>
     </modules>
 
 </project>
