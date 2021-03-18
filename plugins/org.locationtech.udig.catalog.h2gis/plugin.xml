@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   	<extension
+         point="org.locationtech.udig.catalog.ServiceExtension">
+      <service
+            class="org.locationtech.udig.catalog.H2GISServiceExtension2"
+            id="h2gis"
+            name="H2GIS"/>
+   	</extension>
+ <extension
+       point="org.locationtech.udig.catalog.ui.connectionFactory">
+    <factory
+          class="org.locationtech.udig.catalog.internal.h2gis.ui.H2GISConnectionFactory"
+          id="org.locationtech.udig.catalog.h2gis.experimental">
+    </factory>
+    <wizardPage
+          banner="icons/wizban/h2gis_wiz.gif"
+          class="org.locationtech.udig.catalog.internal.h2gis.ui.H2GISUserHostPage"
+          description="%wizard.description"
+          icon="icons/etool16/h2gis_wiz.gif"
+          name="H2GIS">
+    </wizardPage>
+    <wizardPage
+          banner="icons/wizban/h2gis_wiz.gif"
+          class="org.locationtech.udig.catalog.service.database.DataConnectionPage"
+          description="%wizard.description"
+          icon="icons/etool16/h2gis_wiz.gif"
+          name="Connection">
+    </wizardPage>
+ </extension>
+ 
+</plugin>

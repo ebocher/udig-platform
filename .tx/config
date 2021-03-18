@@ -57,6 +57,11 @@ file_filter = plugins/org.locationtech.udig.catalog.postgis/plugin_<lang>.proper
 source_file = plugins/org.locationtech.udig.catalog.postgis/plugin.properties
 source_lang = en
 
+[udig.udig_catalog_h2gis-plugin]
+file_filter = plugins/org.locationtech.udig.catalog.h2gis/plugin_<lang>.properties
+source_file = plugins/org.locationtech.udig.catalog.h2gis/plugin.properties
+source_lang = en
+
 [udig.udig_catalog_shp-plugin]
 file_filter = plugins/org.locationtech.udig.catalog.shp/plugin_<lang>.properties
 source_file = plugins/org.locationtech.udig.catalog.shp/plugin.properties
@@ -330,6 +335,11 @@ source_lang = en
 [udig.udig_catalog_postgis-messages]
 file_filter = plugins/org.locationtech.udig.catalog.postgis/src/org/locationtech/udig/catalog/postgis/internal/messages_<lang>.properties
 source_file = plugins/org.locationtech.udig.catalog.postgis/src/org/locationtech/udig/catalog/postgis/internal/messages.properties
+source_lang = en
+
+[udig.udig_catalog_h2gis-messages]
+file_filter = plugins/org.locationtech.udig.catalog.h2gis/src/org/locationtech/udig/catalog/h2gis/internal/messages_<lang>.properties
+source_file = plugins/org.locationtech.udig.catalog.h2gis/src/org/locationtech/udig/catalog/h2gis/internal/messages.properties
 source_lang = en
 
 [udig.udig_catalog_rasterings-messages]

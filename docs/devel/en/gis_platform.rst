@@ -49,6 +49,7 @@ catalogs:
 -  org.locationtech.udig.catalog.mysql
 -  org.locationtech.udig.catalog.oracle
 -  org.locationtech.udig.catalog.postgis
+-  org.locationtech.udig.catalog.h2gis
 -  org.locationtech.udig.catalog.rasterings
 -  org.locationtech.udig.catalog.shp
 -  org.locationtech.udig.catalog.wfs

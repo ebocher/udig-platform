@@ -112,6 +112,7 @@
         <module>org.locationtech.udig.catalog.mysql</module>
         <module>org.locationtech.udig.catalog.oracle</module>
         <module>org.locationtech.udig.catalog.postgis</module>
+        <module>org.locationtech.udig.catalog.h2gis</module>
         <module>org.locationtech.udig.catalog.rasterings</module>
         <module>org.locationtech.udig.catalog.shp</module>
         <module>org.locationtech.udig.catalog.ui</module>
